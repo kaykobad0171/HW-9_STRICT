@@ -1,0 +1,517 @@
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	/* header */
+    .logo {
+        width: 30%;
+        margin-left: 35%;
+    }
+    .menu {
+        width: 77%;
+        float: none;
+        margin-left: 40px;
+    }
+    .menu ul{
+        float: none;
+    }
+    .menu ul li a {
+        margin-right: 25px;
+        font-size: 16px;
+    }
+    
+
+/* fff */
+    
+    /* .menu {
+        width: 90%;
+        float: left;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .menu ul {
+        float: none;
+    }
+    .menu ul li {
+        float: left;
+        padding-right: 10px;
+    }
+    .menu ul li a {
+        font-size: 18px;
+        padding: 10px 10px;
+    } */
+
+
+
+    /* banner */
+    .banner {
+        height: 500px;
+    }
+    .b_h1 {
+        font-size: 55px;
+    }
+    .b_content {
+        padding: 130px 0 200px;
+    }
+    .b_content hr {
+        width: 110%;
+    }
+    .b_text {
+        font-size: 18px !important;
+        margin: 30px 0 20px;
+    }
+    .b_btn button {
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+        letter-spacing: 2px;
+        border-radius: 3px;
+        color: white;
+        background: transparent;
+        border: 1px solid #15A4FA;
+        transition: .3s;
+    }
+
+
+    /* simple */
+    .s_h1 {
+        font-size: 30px;
+    }
+    .s_text {
+        font-size: 16px;
+    }
+    .simple {
+        padding: 60px 0;
+    }
+
+
+    /* service */
+    .service {
+        padding: 35px 0;
+    }
+    .sr_single {
+        margin: 35px 0;
+        width: 100%;
+    }
+    .sr_text {
+        margin: 0 10%;
+    }
+    .sr_img {
+        width: 15%;
+    }
+
+    /* showcase */
+
+    .show_single {
+        margin: 0 0% 10% 0;
+        width: 100%;
+    }
+
+    /* contact */
+    .ct_h1 {
+        font-size: 40px;
+    }
+    .ct_sb {
+        width: 90%;
+    }
+    #full_name {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    #email {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .text_area {
+        width: 75%;
+        height: 120px;
+        font-size: 19px;
+        padding: 10px 20px 10px 15px;
+    }
+    .ct_sb {
+        width: 85%;
+    }
+    .ct_btn button {
+        width: 25%;
+        height: 40px;
+        font-size: 18px;
+    }
+    .contact {
+        padding: 90px 0;
+    }
+    .ct_content {
+        text-align: center;
+        padding-top: 0;
+    }
+    .contact {
+        min-height: 0px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* footer */
+    .f_left {
+        float: left;
+        margin-top: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    .f_right ul li {
+        width: 30px;
+        height: 25px;
+        margin-right: 30px;
+    }
+    .f_right {
+        float: right;
+        width: 100%;
+    }
+    .f_right ul {
+        padding: 0 0 0 125px;
+        overflow: hidden;
+    }
+
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	/* header */
+    .logo {
+        width: 23%;
+        margin-top: 14px;
+    }
+    .menu {
+        width: 77%;
+    }
+    .menu ul li a {
+        margin-right: 25px;
+        font-size: 16px;
+    }
+
+
+    /* banner */
+    .banner {
+        height: 500px;
+    }
+    .b_h1 {
+        font-size: 55px;
+    }
+    .b_content {
+        padding: 130px 0 200px;
+    }
+    .b_content hr {
+        width: 105%;
+    }
+    .b_text {
+        font-size: 18px !important;
+        margin: 30px 0 20px;
+    }
+    .b_btn button {
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+        letter-spacing: 2px;
+        border-radius: 3px;
+        color: white;
+        background: transparent;
+        border: 1px solid #15A4FA;
+        transition: .3s;
+    }
+
+
+    /* simple */
+    .s_h1 {
+        font-size: 30px;
+    }
+    .s_text {
+        font-size: 16px;
+    }
+    .simple {
+        padding: 60px 0;
+    }
+
+
+    /* service */
+    .service {
+        padding: 35px 0;
+    }
+    .sr_single {
+        margin: 35px 0;
+        width: 100%;
+    }
+    .sr_text {
+        margin: 0 10%;
+    }
+    .sr_img {
+        width: 15%;
+    }
+
+    /* showcase */
+
+    .show_single {
+        margin: 0 0% 10% 0;
+        width: 100%;
+    }
+
+    /* contact */
+    .ct_h1 {
+        font-size: 40px;
+    }
+    .ct_sb {
+        width: 90%;
+    }
+    #full_name {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    #email {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .text_area {
+        width: 75%;
+        height: 120px;
+        font-size: 19px;
+        padding: 10px 20px 10px 15px;
+    }
+    .ct_sb {
+        width: 85%;
+    }
+    .ct_btn button {
+        width: 25%;
+        height: 40px;
+        font-size: 18px;
+    }
+    .contact {
+        padding: 90px 0;
+    }
+    .ct_content {
+        text-align: center;
+        padding-top: 0;
+    }
+    .contact {
+        min-height: 0px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* footer */
+    .f_left {
+        float: left;
+        margin-top: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    .f_right ul li {
+        width: 30px;
+        height: 25px;
+        margin-right: 30px;
+    }
+    .f_right {
+        float: right;
+        width: 100%;
+    }
+    .f_right ul {
+        padding: 0 0 0 125px;
+        overflow: hidden;
+    }
+    
+
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	
+    /* header */
+    .logo {
+        width: 20%;
+        margin-top: 14px;
+    }
+
+    .menu ul li a {
+        margin-right: 45px;
+        font-size: 18px;
+    }
+
+
+    /* banner */
+    .banner {
+        height: 600px;
+    }
+    .b_h1 {
+        font-size: 70px;
+
+    }
+    .b_content {
+        padding: 145px 0 207px;
+    }
+    .b_content hr {
+        width: 105%;
+    }
+    .b_text {
+        font-size: 18px;
+    }
+    .b_btn button {
+        width: 185px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+
+    /* simple */
+    .s_h1 {
+        font-size: 40px;
+    }
+    .s_text {
+        font-size: 18px;
+    }
+
+
+    /* service */
+    .sr_text {
+        margin: 0 7%;
+    }
+    .sr_img {
+        width: 25%;
+    }
+
+    /* showcase */
+    .show_ssigle {
+        padding-top: 55px;
+    }
+
+    /* contact */
+    .ct_h1 {
+        font-size: 40px;
+    }
+    #full_name {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    #email {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .text_area {
+        width: 75%;
+        height: 120px;
+        font-size: 19px;
+        padding: 10px 20px 10px 15px;
+    }
+    .ct_sb {
+        width: 85%;
+    }
+    .ct_btn button {
+        width: 25%;
+        height: 40px;
+        font-size: 18px;
+    }
+    .contact {
+        padding: 90px 0;
+    }
+    .ct_content {
+        text-align: center;
+        padding-top: 0;
+    }
+    .contact {
+        min-height: 0px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* footer */
+
+    .f_right ul li {
+        margin-right: 15px;
+    }
+
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* Header */
+    .logo {
+        width: 20%;
+        margin-top: 12px;
+    }
+    .banner {
+        height: 700px;
+    }
+    .b_content {
+        padding: 150px 0 207px;
+    }
+    .menu ul li a {
+        margin-right: 60px;
+    }
+/* banner */
+    .b_h1 {
+        font-size: 90px;
+    }
+    .b_content hr {
+        color: #15A4FA;
+        width: 105%;
+    }
+
+    .s_h1 {
+        font-size: 45px;
+    }
+    .s_text {
+        font-size: 18px;
+    }
+    .sr_single {
+        margin: 65px 2%;
+        width: 30%;
+    }
+
+
+    .ct_h1 {
+        font-size: 45px;
+    }
+
+    #full_name {
+        width: 75%;
+        height: 40px;
+    }
+    #email {
+        width: 75%;
+        height: 40px;
+    }
+    .text_area {
+        width: 71%;
+    }
+    .ct_sb {
+        width: 80%;
+    }
+
+    .f_right ul li {
+        margin-right: 20px;
+    }
+
+    
+ }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+    .logo {
+        width: 18%;
+        margin-top: 10px;
+    }
+
+ }
+
+ /*Extra Extra large devices (extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    
+	
+ }

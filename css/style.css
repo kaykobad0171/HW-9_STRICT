@@ -8,22 +8,16 @@ body{
 }
 /*header start*/
 header{
-	
-
-	/*border: 1px solid;*/
 	background-color: #f6f9f9;
 	padding: 20px 0 ;
-
 }
 .wrapper{
-	/*border: 1px solid red;*/
 	width: 80%;
 	margin: 0 auto;
 	overflow: hidden;
 }
 .logo {
 	width: 15%;
-	/*border: 1px solid blue;*/
 	float: left;
 	padding: 5px 0;
 }
@@ -31,10 +25,8 @@ header{
 	width: 100%;
 }
 .menu{
-	/*margin-top: 3px;*/
 	overflow: hidden;
 	width: 70%;
-	/*border: 1px solid blue;*/
 	float: right;
 }
 .menu ul{
@@ -70,7 +62,6 @@ header{
 }
 .b_content {
 	text-align: center;
-	/* border: 1px solid white; */
 	width: 40%;
 	margin: 0 auto;
 	padding: 280px 0 207px;
@@ -88,7 +79,6 @@ header{
 	font-size: 20px;
 	margin: 30px 0 55px;
 }
-.b_btn{}
 .b_btn button {
 	width: 200px;
 	height: 60px;
@@ -104,6 +94,7 @@ header{
 	background-color: #15A4FA;
 }
 /*banner end*/
+
 /*simple section start*/
 .simple{
 	background-color: #F6F9F9;
@@ -126,21 +117,15 @@ header{
 /*simple section end*/
 
 /*service section start*/
-.service{
-	/*padding-top: 150px;*/
-}
 .sr_content{
-
 	overflow: hidden;
 }
 .sr_single {
 	margin: 65px 0;
 	float: left;
-	/* border: 1px solid green; */
 	width: 33.33%;
 	text-align: center;
 	padding: -1px;
-	/*background-color: linen;*/
 }
 .sr_single:last-child{
 	margin-right: 0;
@@ -163,17 +148,14 @@ header{
 	line-height: 25px;
 	margin: 0 15%;
 }
-
 /*service section start*/
 
 /*showcase section start*/
 .showcase{
-	min-height: 900px;
 	background-color: #F6F9F9;
 }
 .show_content{
 	padding-bottom: 80px;
-	/*border: 1px solid green;*/
 }
 .show_h{
 	text-align: center;
@@ -191,7 +173,6 @@ header{
 	padding-top: 80px;
 }
 .show_single {
-	/* border: 1px solid lightblue; */
 	float: left;
 	margin: 0px 2% 2% 0;
 	width: 32%;
@@ -200,13 +181,38 @@ header{
 	margin-right: 0;
 }
 .show_img{
+	position: relative;
 	width: 100%;
-	/*border: 1px solid dodgerblue;*/
+	display: block;
+}
+.over{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background-color: #6A5CE4;
+	font-family: lato;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0%;
+	transition: opacity 0.5s;
+}
+.over:hover{
+	opacity: 80%;
+}
+.over{
+	transform: translateY(20px);
+	transition: transform 0.5s;
+}
+.over:hover{
+	transform: translateY(0);
 }
 .show_img img {
-	/* display: inline-block; */
 	width: 100%;
-	/*border: 1px solid lightcyan;*/
 	border-radius: 2px;
 }
 /*showcase section end*/
@@ -220,29 +226,24 @@ header{
 }
 
 .wrapper2{
-	/*border: 1px solid red;*/
 	width: 50%;
 	margin: 0 auto;
 }
 .ct_content {
-	/*border: 1px solid blue;*/
 	text-align: center;
 	padding-top: 60px;
 }
-
 .ct_h1{
 	margin: 0;
 	color: white;
 	font-family: lato;
 	font-weight: 400;
 	font-size: 50px;
-
 }
 .ct_text{
 	margin-bottom: 50px;
 }
 .ct_form{
-
 }
 #full_name {
 	background: transparent;
@@ -278,7 +279,6 @@ header{
 	padding: 10px 20px 10px 20px;
 }
 .ct_sb {
-
 	text-align: center;
 	/*border: 1px solid;*/
 	width: 53%;
@@ -294,15 +294,10 @@ header{
 	float: left;
 	/*border: 1px solid;*/
 	margin-top: 10px;
-
 }
-
-.cb_text{
-	color: white;
-	font-weight: 300;
-}
-.ct_btn {
-	
+.cb_text {
+    color: #999999;
+    font-weight: 300;
 }
 .ct_btn button{
 	float: right;
@@ -317,16 +312,54 @@ header{
 }
 .ct_btn button:hover{
 	border-color: #15A4FA;
-	color: white;
 }
-
-
 /*contact section end*/
 
 /*footer section start*/
 footer{
-	height: 100px;
+	min-height:50px;
 	background-color: #F6F9F9;
 }
-
+.wrapper3{
+	padding: 10px 0;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+}
+.copy_link{
+	text-decoration: none;
+	color: #999999;
+}
+.f_left {
+    float: left;
+    margin-top: 8px;
+}
+.f_right{
+	float: right;
+}
+.f_right ul{
+	padding: 0;
+	overflow: hidden;
+}
+.f_right ul li {
+    text-align: center;
+    width: 35px;
+    height: 27px;
+    padding-top: 7px;
+    background-color: #15A4FA;
+    margin-right: 40px;
+    float: left;
+    list-style: none;
+    transition: .3s;
+}
+.f_right ul li a {
+    color: white;
+    text-decoration: none;
+}
+.f_right ul li:hover{
+    background-color: #2D3950;
+}
+.f_right ul li:last-child{
+	margin-right: 0;
+}
 /*footer section end*/
